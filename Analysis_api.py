@@ -2,7 +2,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
+@app.route('/analysis', methods=['GET'])
 def Analysis():
     import pandas as pd
 
